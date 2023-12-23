@@ -6,7 +6,7 @@
 
 	<groupId>it.feargames.tileculling</groupId>
 	<artifactId>tileculling-parent</artifactId>
-	<version>1.2.5-SNAPSHOT</version>
+	<version>1.2.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
@@ -16,6 +16,10 @@
 		<module>v1_18_R1</module>
 		<module>v1_18_R2</module>
 		<module>v1_19_R1</module>
+		<module>v1_20_R1</module>
+		<module>v1_20_R2</module>
+		<module>v1_20_R3</module>
+		<module>v1_20_R4</module>
 		<module>plugin</module>
 	</modules>
 
@@ -61,7 +65,7 @@
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
 			<artifactId>ProtocolLib</artifactId>
-			<version>4.6.0</version>
+			<version>5.1.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
